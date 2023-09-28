@@ -1250,7 +1250,7 @@ import CV from "../../../public/cv.pdf"
 
 
   <div>
-    <a href='#''> <img src="/logo1.png" alt="logo" class="w-28 fixed flex ml-5 top-5"/> </a> 
+    <a href='#''> <img src="/logo1.png" alt="logo" class="w-28 absolute flex ml-5 top-5"/> </a> 
   </div>
 
  
@@ -1259,19 +1259,19 @@ import CV from "../../../public/cv.pdf"
             <span class="text-mainblue"> Marwa </span>
                 <br/>
                     Junior Full-Stack Developer
-        </h1>
+        </h1>  
     <div class="flex gap-4 mt-2">
-        <a href={CV} class="max-w-max inline-block text-mainblue cursor-pointer text-lg font-semibold px-7 py-3 border-solid border-mainblue border rounded-lg shadow-sm bg-white" target="_blank" rel="noreferrer"> View CV </a>
-       <a href="#contact" class="max-w-max inline-block text-white bg-mainblue font-semibold text-lg cursor-pointer px-9 py-3 border-solid border  border-mainblue rounded-lg shadow-sm bg-blue"> Contact me! </a>
+        <a href={CV} class="max-w-max inline-block text-mainblue cursor-pointer text-lg font-semibold px-7 py-3 border-solid border-mainblue border rounded-lg shadow-sm bg-white shadow-right-bottom transition-transform transform hover:scale-105" target="_blank" rel="noreferrer"> View CV </a>
+       <a href="#contact" class="max-w-max inline-block text-white bg-mainblue font-semibold text-lg cursor-pointer px-9 py-3 border-solid border  border-mainblue rounded-lg shadow-sm bg-blue shadow-right-bottom transition-transform transform hover:scale-105"> Contact me! </a>
     </div>
-        <div class="justify-center flex mr-14 mb-3">
-           <a href="#about" class="absolute rotate-90"> <iconify-icon icon="material-symbols:double-arrow" style="color: #4c77ab;"width="100" height="100"> </iconify-icon> </a>
+        <div class="justify-center flex mr-14 mb-3 mt-3">
+           <a href="#about" class="absolute rotate-90 transition-transform transform hover:scale-105"> <iconify-icon icon="material-symbols:double-arrow" style="color: #4c77ab;"width="100" height="100"> </iconify-icon> </a>
         </div>
   </div>
 
 
 <div class="absolute flex w-1/4 mt-32 right-0 mr-20 arrow"> 
-   <img src="/icon1.png" alt="arrow logo"/>
+   <img src="/icon1.png" alt="logo"/>
 </div>
 
 
@@ -1289,6 +1289,10 @@ svg {
   height: 100vh;
   
 }
+
+  .shadow-right-bottom {
+    box-shadow: 4px 4px 6px rgba(2, 0, 30, 0.8);
+  }
 
 
 .container {
