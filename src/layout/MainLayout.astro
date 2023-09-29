@@ -14,13 +14,17 @@
          <link href="https://fonts.googleapis.com/css2?family=Imprima&display=swap" rel="stylesheet">
     </head>
     <body>
-       <nav class="flex items-center text-3xl absolute justify-between w-auto top-2 right-5">
-        <ul class="list-none flex flex-r mt-5 left-5 font-display font-semibold">
-          <li class="ml-5 pt-3 pr-2 pb-0 pl-4 hover:text-mainblue"> <a href="#"> Home </a></li>
-          <li class="ml-5 pt-3 pr-2 pb-0 pl-4 hover:text-mainblue"> <a href="#about"> About </a></li>
-          <li class="ml-5 pt-3 pr-2 pb-0 pl-4 hover:text-mainblue"> <a href="#projects"> Projects </a></li>
-          <li class="ml-5 pt-3 pr-2 pb-0 pl-4 hover:text-mainblue"> <a href="#contact"> Contact </a></li>
-           <iconify-icon icon="solar:moon-bold-duotone" class="pt-4 ml-3 pr-2 pb-0 pl-4"  style="color: #4c77ab" ></iconify-icon>
+       <nav class="absolute flex items-center sm:w-[25%] lg:w-[50%] top-3 md:top-4 lg:top-5 right-0 justify-end md:mr-4 mr-3 lg:mr-10 h-auto">
+
+        <ul class="list-none lg:gap-5 flex flex-row m-0 p-0 font-display font-semibold md:text-2xl lg:text-3xl">
+          <li class="pt-3 pr-1 pb-0 pl-2 hover:text-mainyellow"> <a href="#"> Home </a></li>
+          <li class="pt-3 pr-1 pb-0 pl-2 hover:text-mainyellow"> <a href="#about"> About </a></li>
+          <li class="pt-3 pr-1 pb-0 pl-2 hover:text-mainyellow"> <a href="#projects"> Projects </a></li>
+          <li class="pt-3 pr-1 pb-0 pl-2 hover:text-mainyellow"> <a href="#contact"> Contact </a></li>
+         <iconify-icon icon="solar:moon-bold-duotone" style="color: #4C77AB;" class="pt-3 ml-3 pr-1 pb-0 pl-2"></iconify-icon> 
+
+           
+        
         </ul>
        </nav>
 
@@ -41,11 +45,10 @@
 
 
 body {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 80ch;
-    padding: 1rem;
-    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    font-family: font-display;
 }
 
 
@@ -64,11 +67,10 @@ html {
     scroll-behavior: smooth;
 }
 
-section {
-    margin-top: 8rem;
-    height: auto;
 
+.container {
+  margin: 0 auto;
+  padding: 1rem;
 }
-
 
 </style>
