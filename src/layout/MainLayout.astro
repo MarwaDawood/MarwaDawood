@@ -1,5 +1,6 @@
 ---
-
+import ThemeIcon from "../components/ThemeIcon.astro"
+import "../global.css"
 ---
 
 
@@ -16,13 +17,12 @@
     <body>
        <nav class="absolute flex items-center sm:w-[25%] lg:w-[50%] top-3 md:top-4 lg:top-5 right-0 justify-end md:mr-4 mr-3 lg:mr-10 h-auto">
 
-        <ul class="list-none lg:gap-5 flex flex-row m-0 p-0 font-display font-semibold md:text-2xl lg:text-3xl">
+        <ul class="navlist list-none lg:gap-5 flex flex-row m-0 p-0 font-display font-semibold md:text-2xl lg:text-3xl">
           <li class="pt-3 pr-1 pb-0 pl-2 hover:text-mainyellow"> <a href="#"> Home </a></li>
           <li class="pt-3 pr-1 pb-0 pl-2 hover:text-mainyellow"> <a href="#about"> About </a></li>
           <li class="pt-3 pr-1 pb-0 pl-2 hover:text-mainyellow"> <a href="#projects"> Projects </a></li>
           <li class="pt-3 pr-1 pb-0 pl-2 hover:text-mainyellow"> <a href="#contact"> Contact </a></li>
-         <iconify-icon icon="solar:moon-bold-duotone" style="color: #4C77AB;" class="pt-3 ml-3 pr-1 pb-0 pl-2"></iconify-icon> 
-
+            <ThemeIcon />
            
         
         </ul>
@@ -42,35 +42,17 @@
 
 
 <style>
+.dark body {
+  background-color: #0B1E38;
+}  
 
-
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #FFFFFF;
-    font-family: font-display;
+.dark ul {
+  color: white;
 }
 
-
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-
+.dark li:hover {
+  color: #E8E163;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
-
-.container {
-  margin: 0 auto;
-  padding: 1rem;
-}
 
 </style>
