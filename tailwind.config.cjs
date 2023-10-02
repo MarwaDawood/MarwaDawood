@@ -7,7 +7,8 @@ module.exports = {
 			colors: {
 				'mainblue': '#385A84',
 				'mainyellow': '#8A7500',
-				'starryyellow': '#E8E163'
+				'starryyellow': '#E8E163',
+				'maingreen': '#82A047'
 			},
 			fontFamily: {
 			display: ['Imprima'],
