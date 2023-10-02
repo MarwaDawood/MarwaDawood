@@ -1,32 +1,25 @@
+import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
-import emailjs from 'emailjs-com';
 
 
 
-
-const Contact = () =>  {
+const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_62l66w3', 'template_rgem5ly', form.current, 'fgrOukY4YYEoV6gOe')
-     .then(
-        (result) => {
-          console.log('Email sent successfully:', result.text);
-        },
-        (error) => {
-          console.log('Email send failed:', error.text);
-        }
-      );
-
-    e.target.reset()
-    
+    emailjs.sendForm('service_ylpfkdg', 'template_m6ofeqa', form.current, 'fgrOukY4YYEoV6gOe')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
   };
 
 
   return (
-    <section id="contact">
+    <section id="contact" className="bg-">
        
        <div className="mt-10 font-display lg:text-5xl md:text-3xl text-2xl text-center">
        <h1 className="lines"> CONTA<span class="lines decoration-solid decoration-4 lg:decoration-8 decoration-[#82A047] underline-offset-8 underline">CT ME</span> </h1>
@@ -47,9 +40,9 @@ const Contact = () =>  {
       </div>
       </section>
   )
-}
+
+  }
 
 export default Contact;
-
 
 
