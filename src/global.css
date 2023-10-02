@@ -60,10 +60,10 @@ html {
 
 .dark .darkbubblestwo span {
     position: relative;
-    width: 3px;
-    height: 3px;
+    width: 4px;
+    height: 4px;
     margin: 0 1px;
-    border-radius: 20%;
+    border-radius: 50%;
     background: #E8E163;
     box-shadow: 0 0 0 1px #E8E16344,
     0 0 1px #E8E163,
@@ -131,10 +131,10 @@ html {
 
 .dark .darkbubblesthree span {
     position: relative;
-        width: 3px;
-        height: 3px;
-        margin: 0 2px;
-        border-radius: 30%;
+        width: 8px;
+        height: 8px;
+        margin: 0 3px;
+        border-radius: 50%;
         background: #E8E163;
         box-shadow: 0 0 0 3px #E8E16344,
         0 0 3px #E8E163,
@@ -145,21 +145,21 @@ html {
 
 .dark .darkbubblesthree span:nth-child(even) {
     background: #DB901C;
-    box-shadow: 0 0 4px #DB901C44,
+    box-shadow: 0 0 3px #DB901C44,
         0 0 3px #DB901C,
         0 0 3px #DB901C;
 }
 
 .dark .darkbubblesthree span:nth-child(3n) {
     background: #E0B95A;
-    box-shadow: 0 0 4px #E0B95A44,
+    box-shadow: 0 0 3px #E0B95A44,
         0 0 3px #E0B95A,
         0 0 3px #E0B95A;
 }
 
 .dark .darkbubblesthree span:nth-child(4n) {
     background: #A39122;
-    box-shadow: 0 0 4px #A3912244,
+    box-shadow: 0 0 3px #A3912244,
         0 0 3px #A39122,
         0 0 3px #A39122;
 }
@@ -190,14 +190,14 @@ html {
 
 .dark .darkbubbles span {
     position: relative;
-        width: 5px;
-        height: 5px;
+        width: 10px;
+        height: 10px;
         margin: 0 4px;
         border-radius: 50%;
         background-color: #E8E163;
-        box-shadow: 0 0 0 5px #E8E16344,
-        0 0 5px #E8E163,
-        0 0 5px #E8E163;
+        box-shadow: 0 0 0 4px #E8E16344,
+        0 0 4px #E8E163,
+        0 0 4px #E8E163;
         animation: animate 15s linear infinite;
         animation-duration: calc(200s / var(--i))
 
@@ -253,19 +253,24 @@ background-color: #DB901C;
 
 
 .dark .hi {
-    color: white;
+    color: #F2F2F2;
 }
 
 .dark .cv {
-border-color: white;
+border-color: #DEDEDE;
+background-color: #F2F2F2;
 color: black;
-
 }
 
+.dark .homeshades {
+box-shadow: 5px 5px 5px rgba(5, 0, 40, 1);
+}      
+   
+
 .dark .me {
-    border-color: #E8E163;
     color: black;
-    background-color: #E8E163;
+    background-color: #F2F2F2;
+    border-color: #F2F2F2;
 }
 
 .dark .lines {
@@ -277,26 +282,41 @@ color: black;
     background-color: #173679;
 }
 
+.dark .aboutmebox {
+    border-color: white;
+}
+
+
+
+
 .dark .proj {
     background: linear-gradient(to bottom, #C3D6E4, #173679);
     
 }
 
 .dark .proj h2 {
-    color: #0B1E38;
+    color: #F5F5F5;
 }
 
- .shadow-right-bottom {
-     box-shadow: 5px 5px 4px rgba(5, 0, 40, 1);
- }
+.dark .bg {
+    background-color: #0B1E38;
+    color: #DEDEDE;
+}
+   
 
  .dark .contactme {
     border-color: #0B1E38;
  }
 
 .dark .footer {
-    background-color: #0B1E38;
-    
+    background-color: #0B1E38;  
+
+}
+
+
+.dark .sendme {
+    border: white;
+    box-shadow: 5px 5px 5px rgba(5, 0, 40, 1);;
 }
 
 
@@ -307,6 +327,8 @@ color: black;
 .dark .end {
     color: white;
 }
+
+
 
 
 

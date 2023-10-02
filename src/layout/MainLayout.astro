@@ -1,5 +1,5 @@
 ---
-import ThemeIcon from "../components/ThemeIcon.astro"
+import ThemeIcon from "../components/themes/ThemeIcon.astro"
 import "../global.css"
 ---
 
@@ -18,10 +18,10 @@ import "../global.css"
        <nav class="absolute flex items-center sm:w-[25%] lg:w-[50%] top-3 md:top-4 lg:top-5 right-0 justify-end md:mr-4 mr-3 lg:mr-10 h-auto">
 
         <ul class="navlist list-none lg:gap-5 flex flex-row m-0 p-0 font-display font-semibold md:text-2xl lg:text-3xl">
-          <li class="pt-3 pr-1 pb-0 pl-2 hover:text-mainyellow"> <a href="#"> Home </a></li>
-          <li class="pt-3 pr-1 pb-0 pl-2 hover:text-mainyellow"> <a href="#about"> About </a></li>
-          <li class="pt-3 pr-1 pb-0 pl-2 hover:text-mainyellow"> <a href="#projects"> Projects </a></li>
-          <li class="pt-3 pr-1 pb-0 pl-2 hover:text-mainyellow"> <a href="#contact"> Contact </a></li>
+          <li class="pt-3 pr-1 pb-0 pl-2 hover:text-[#6F540B]"> <a href="#"> Home </a></li>
+          <li class="pt-3 pr-1 pb-0 pl-2 hover:text-[#6F540B]"> <a href="#about"> About </a></li>
+          <li class="pt-3 pr-1 pb-0 pl-2 hover:text-[#6F540B]"> <a href="#projects"> Projects </a></li>
+          <li class="pt-3 pr-1 pb-0 pl-2 hover:text-[#6F540B]"> <a href="#contact"> Contact </a></li>
             <ThemeIcon />
            
         
@@ -47,11 +47,11 @@ import "../global.css"
 }  
 
 .dark ul {
-  color: white;
+  color: #F2F2F2;
 }
 
 .dark li:hover {
-  color: #E8E163;
+  color: #F7F4B5;
 }
 
 

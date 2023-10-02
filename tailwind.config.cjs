@@ -5,14 +5,15 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				'mainblue': '#4C77AB',
-				'mainyellow': '#E0B95A',
+				'mainblue': '#385A84',
+				'mainyellow': '#8A7500',
 				'starryyellow': '#E8E163'
 			},
 			fontFamily: {
 			display: ['Imprima'],
 		},
-	},
+	}, 
 	plugins: [],
+} 
 }
-}
+//4c77ab
