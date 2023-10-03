@@ -35,6 +35,8 @@ html {
 
 @media screen and (max-width: 600px)  {
 
+
+
 .dark .bubbles span {
         display: none;
     }
@@ -103,6 +105,7 @@ html {
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
 
+
 .dark .bubbles span {
         display: none;
     }
@@ -167,6 +170,13 @@ html {
 
 }
 
+.dark .footerlightlarge {
+    display: none;
+}
+
+.dark .footerlightsmall {
+    display: none;
+}
 
 
 .dark .bubbles span {
@@ -253,12 +263,12 @@ background-color: #DB901C;
 
 
 .dark .hi {
-    color: #F2F2F2;
+    color: #DEDEDE;
 }
 
 .dark .cv {
 border-color: #DEDEDE;
-background-color: #F2F2F2;
+background-color: #DEDEDE;
 color: black;
 }
 
@@ -269,21 +279,22 @@ box-shadow: 5px 5px 5px rgba(5, 0, 40, 1);
 
 .dark .me {
     color: black;
-    background-color: #F2F2F2;
-    border-color: #F2F2F2;
+    background-color: #DEDEDE;
+    border-color: #DEDEDE;
 }
 
 .dark .lines {
     text-decoration-color:#E8E163;
-    color: white;
+    color: #DEDEDE;
 }
-
+ 
 .dark .aboutmecon {
     background-color: #173679;
 }
 
 .dark .aboutmebox {
-    border-color: white;
+    border-color: #DEDEDE;
+    background-color: #DEDEDE;
 }
 
 
@@ -303,14 +314,24 @@ box-shadow: 5px 5px 5px rgba(5, 0, 40, 1);
     color: #DEDEDE;
 }
    
+.dark .probutton {
+    background-color: #DEDEDE;
+    border-color: #DEDEDE;
+}
+
+
 
  .dark .contactme {
     border-color: #0B1E38;
+    background-color: #F5F5F5; 
  }
 
 
+
+
 .dark .sendme {
-    border: white;
+    border: #F5F5F5;
+    background-color: #F5F5F5;   
     box-shadow: 5px 5px 5px rgba(5, 0, 40, 1);;
 }
 
@@ -320,10 +341,11 @@ box-shadow: 5px 5px 5px rgba(5, 0, 40, 1);
 }
 
 .dark .end {
-    color: white;
+    color: #F5F5F5;
 }
 
 
-
-
+.dark .footer {
+    background-color: #0B1E38;
+}
 
