@@ -273,9 +273,9 @@ color: black;
 }
 
 .dark .homeshades {
-box-shadow: 5px 5px 5px rgba(5, 0, 40, 1);
+box-shadow: 3px 3px 8px #DEDEDE70;
 }      
-   
+      
 
 .dark .me {
     color: black;
@@ -303,7 +303,11 @@ box-shadow: 5px 5px 5px rgba(5, 0, 40, 1);
 .dark .proj {
     background: linear-gradient(to bottom, #C3D6E4, #173679);
     
+    
 }
+
+
+
 
 .dark .proj h2 {
     color: #F5F5F5;
@@ -317,6 +321,9 @@ box-shadow: 5px 5px 5px rgba(5, 0, 40, 1);
 .dark .probutton {
     background-color: #DEDEDE;
     border-color: #DEDEDE;
+    box-shadow: 3px 3px 8px #DEDEDE70;
+  
+    
 }
 
 
@@ -332,8 +339,9 @@ box-shadow: 5px 5px 5px rgba(5, 0, 40, 1);
 .dark .sendme {
     border: #F5F5F5;
     background-color: #F5F5F5;   
-    box-shadow: 5px 5px 5px rgba(5, 0, 40, 1);;
-}
+    box-shadow: 3px 3px 8px #DEDEDE70;
+    }
+
 
 
 .dark .footerline {
