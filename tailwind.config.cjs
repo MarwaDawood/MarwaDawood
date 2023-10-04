@@ -14,7 +14,9 @@ module.exports = {
 			display: ['Imprima'],
 		},
 	}, 
-	plugins: [],
+	plugins: [
+		require('@tailwindcss/forms')
+	],
 } 
 }
 //4c77ab

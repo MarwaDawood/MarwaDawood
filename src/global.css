@@ -240,22 +240,6 @@ background-color: #DB901C;
 
 
 
-
-.dark .darkbubbles span {
-    @keyframes animate {
-            0% {
-                transform: translateY(100vh) scale(0);
-            }
-    
-            100% {
-                transform: translateY(-10vh) scale(1);
-            }
-        }
-}
-
-
-
-
 .dark .marwa {
     color: #E8E163;
 }   

@@ -12,8 +12,11 @@ const Contact = () => {
     emailjs.sendForm('service_ylpfkdg', 'template_m6ofeqa', form.current, 'fgrOukY4YYEoV6gOe')
       .then((result) => {
           console.log(result.text);
+        alert('Message sent successfully!');
       }, (error) => {
           console.log(error.text);
+                alert('Message sending failed. Please try again later.');
+
       });
   };
 
@@ -22,7 +25,7 @@ const Contact = () => {
     <section id="contact">
        
        <div className="mt-10 font-display lg:text-5xl md:text-3xl text-2xl text-center">
-       <h1 className="lines"> CONTA<span class="lines decoration-solid decoration-4 lg:decoration-8 decoration-[#82A047] underline-offset-8 underline">CT ME</span> </h1>
+       <h1 className="lines"> CONTA<span className="lines decoration-solid decoration-4 lg:decoration-8 decoration-[#82A047] underline-offset-8 underline">CT ME</span> </h1>
        </div>
 
          
@@ -36,7 +39,7 @@ const Contact = () => {
       <textarea name='message' placeholder='Your Message' rows='7' required className="contactme w-full lg:p-6 p-3 rounded-xl bg-white resize-y lg:my-5 my-3 transition-transform transform hover:scale-105 lg:mb-10 border-solid border-[7px] border-maingreen"></textarea>
 
 
-      <button type='submit' className="sendme shadow-md shadow-black inline-block lg:px-10 px-3 py-1 text-lg lg:text-2xl font-medium text-display cursor-pointer text-black bg-white border-solid border-[2px] border-maingreen rounded-md transition-transform transform hover:scale-105 ml-[31%] md:ml-[39%]"> Send Message </button>
+      <button type='submit' className="sendme shadow-md shadow-black inline-block lg:px-10 px-3 py-1 text-lg lg:text-2xl font-medium text-display cursor-pointer text-black bg-white border-solid border-[2px] border-maingreen rounded-md transition-transform transform hover:scale-105 ml-[31%] md:ml-[39%]" aria-label="Submit Form"> Send Message </button>
       </form>
       </div>
       </section>
