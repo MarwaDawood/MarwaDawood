@@ -1,10 +1,10 @@
 <p align="center">
-<img src="src/media/banner1.png" alt=”my banner”>
+<img src="https://github.com/MarwaDawood/MarwaDawood/blob/main/src/media/banner2.png" alt="my banner">
 
 <h1 align="center">    Hi! 👋🏼   I'm Marwa!  </h1>
-<h4 align="center" >   I am a Junior Front-End Developer 👩🏻‍💻 </h4>
-<h3 align="center">  About me 🚀   </h3>
+<h3 align="center" >   I am a Junior Front-End Developer 👩🏻‍💻 </h3>
  <br/>
+<h4 align="center">  About me 🚀   </h4>
 <p align="center" > After working with developedbyed (Edwin Simo) on an exciting project and being exposed to the world of Astro and Tailwind CSS, I've decided to revamp my website with those tools! 🎨✨ 
  <br/>
 
