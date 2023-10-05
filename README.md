@@ -1,6 +1,5 @@
 <div align="center">
-
- <img src="https://github.com/MarwaDawood/PersonalWebsite1.0/blob/main/src/Fonts&Images/banner1.png" alt=”my banner”>
+<img src="https://github.com/MarwaDawood/PersonalWebsite1.0/blob/main/src/Fonts&Images/banner1.png" alt=”my banner”>
 
 <h1 align="center">    Hi! 👋🏼   I'm Marwa!  </h1>
 <h3 align="center" >   I am a Junior Front-End Developer 👩🏻‍💻 </h3>
