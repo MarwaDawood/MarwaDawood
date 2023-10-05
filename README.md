@@ -1,17 +1,20 @@
 <p align="center">
-<img src="https://github.com/MarwaDawood/MarwaDawood/blob/main/src/media/banner1.png" alt=”my banner”>
+<img src="src/media/banner1.png" alt=”my banner”>
 
 <h1 align="center">    Hi! 👋🏼   I'm Marwa!  </h1>
 <h4 align="center" >   I am a Junior Front-End Developer 👩🏻‍💻 </h4>
 <h3 align="center">  About me 🚀   </h3>
+ <br/>
 <p align="center" > After working with developedbyed (Edwin Simo) on an exciting project and being exposed to the world of Astro and Tailwind CSS, I've decided to revamp my website with those tools! 🎨✨ 
  <br/>
- <br/>
- This project is not just a showcase of my skills but also a canvas where art and technology converge. Inspired by the masterpieces "The Kiss" by Gustav Klimt and "Starry Night" by Vincent van Gogh, I've poured my love for art into every pixel and line of code. 🖌️🌌 The website also features a sleek dark mode 🌙
+
+This project is not just a showcase of my skills but also a canvas where art and technology converge. Inspired by the masterpieces "The Kiss" by Gustav Klimt and "Starry Night" by Vincent van Gogh, I've poured my love for art into every pixel and line of code. 🖌️🌌 The website also features a sleek dark mode 🌙
 </P>
  
  
- 
+  <br/>
+  
+   <br/>
 
 
 ## 🤝🏼 Connect with me
