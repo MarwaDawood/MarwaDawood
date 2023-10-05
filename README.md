@@ -9,6 +9,7 @@
  <br/>
  I'm a firm believer in continuous learning and have since completed several online courses, including the renowned Harvard CS50 course. I'm eager to explore new horizons, and as a quick learner and independent worker, I tackle obstacles head-on with unwavering attention to detail, a hunger for knowledge, and a commitment to team success. 
  <br/>
+ <br/>
 Recently, I've revamped my website and it's latest version was built with Astro, a new tool I wanted to explore. 
 This project is not just a showcase of my skills but also a canvas where art and technology converge. Inspired by the masterpieces "The Kiss" by Gustav Klimt and "Starry Night" by Vincent van Gogh, I've poured my love for art into every pixel and line of code. 🖌️🌌 The website also features a sleek dark mode 🌙
 </p>
