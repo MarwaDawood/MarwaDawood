@@ -3,11 +3,13 @@
 
 <h1 align="center">    Hi! 👋🏼   I'm Marwa!  </h1>
 <h3 align="center" >   I am a Junior Front-End Developer 👩🏻‍💻 </h3>
- <br/>
-<h4 align="center">  About me 🚀  </h4>
-<p align="center" > After working with developedbyed (Edwin Simo) on an exciting project and being exposed to the world of Astro and Tailwind CSS, I've decided to revamp my website with those tools! 🎨✨ 
- <br/>
 
+<h3 align="center">  About me 🚀  </h3>
+<p align="center" > My tech journey took off at the exclusive School of Code's intense 16-week full-stack software development bootcamp. During the program, I gained valuable hands-on experience in front-end development using HTML, CSS, JavaScript, and React, and in back-end development with technologies like Node and Express. 
+ <br/>
+ I'm a firm believer in continuous learning and have since completed several online courses, including the renowned Harvard CS50 course. I'm eager to explore new horizons, and as a quick learner and independent worker, I tackle obstacles head-on with unwavering attention to detail, a hunger for knowledge, and a commitment to team success. 
+ <br/>
+Recently, I've revamped my website and it's latest version was built with Astro, a new tool I wanted to explore. 
 This project is not just a showcase of my skills but also a canvas where art and technology converge. Inspired by the masterpieces "The Kiss" by Gustav Klimt and "Starry Night" by Vincent van Gogh, I've poured my love for art into every pixel and line of code. 🖌️🌌 The website also features a sleek dark mode 🌙
 </p>
  
