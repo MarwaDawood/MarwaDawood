@@ -1,22 +1,22 @@
 <p align="center">
-<img src="https://user-images.githubusercontent.com/102393807/209582830-5b30fe27-bc0d-4d81-b3fc-18b79082ca3e.png" alt=”my banner”>
+<img src="https://github.com/MarwaDawood/MarwaDawood/blob/main/src/media/banner1.png" alt=”my banner”>
 
 <h1 align="center">    Hi! 👋🏼   I'm Marwa!  </h1>
 <h4 align="center" >   I am a Junior Front-End Developer 👩🏻‍💻 </h4>
 <h3 align="center">  About me 🚀   </h3>
 <p align="center" > After working with developedbyed (Edwin Simo) on an exciting project and being exposed to the world of Astro and Tailwind CSS, I've decided to revamp my website with those tools! 🎨✨ 
  <br/>
+ <br/>
  This project is not just a showcase of my skills but also a canvas where art and technology converge. Inspired by the masterpieces "The Kiss" by Gustav Klimt and "Starry Night" by Vincent van Gogh, I've poured my love for art into every pixel and line of code. 🖌️🌌 The website also features a sleek dark mode 🌙
 </P>
  
  
  
- 
+
 
 ## 🤝🏼 Connect with me
 
 <a href="https://www.linkedin.com/in/marwa-dawood/"><img align="left" src="https://raw.githubusercontent.com/yushi1007/yushi1007/main/images/linkedin.svg" alt="marwa-dawood | LinkedIn" width="35px"/> </a>
-<a href="https://www.twitter.com/Marwa__Dawood/"><img align="left" src="https://user-images.githubusercontent.com/102393807/209584292-6495b361-31e0-4ab6-98dc-75ee6c1d838d.png" alt="Marwa__Dawood | Twitter" width="35px"/> </a>
 <a href="mailto:marwa.dawood@hotmail.com"> <img align="left" src="https://user-images.githubusercontent.com/102393807/209590242-2a31c21e-0f42-4934-b0ac-64bdccb87b7f.png" width="40px"/></a>
 
   
@@ -30,20 +30,13 @@
 
 ## 💻 I'm currently working on
 
+- Securing my first role in tech
 - Improving my React skills
-- Leaning Python
-- Finishing the Harvard CX50 course
-- Developing a personal app
+- Developing a workout app
+
 
  <br>
 
-## 📖 I'm currently learning
-
-- React Hooks 
-- Next.js
-
- <br>
- 
 
 ## 🌐 Languages and Tools
 
