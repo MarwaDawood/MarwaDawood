@@ -11,7 +11,7 @@
 This project is not just a showcase of my skills but also a canvas where art and technology converge. Inspired by the masterpieces "The Kiss" by Gustav Klimt and "Starry Night" by Vincent van Gogh, I've poured my love for art into every pixel and line of code. 🖌️🌌 The website also features a sleek dark mode 🌙
 </p>
  
- 
+ </div>
   <br/>
   
    <br/>
@@ -72,4 +72,4 @@ This project is not just a showcase of my skills but also a canvas where art and
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yushi1007&layout=compact)](https://github.com/yushi1007)
 
-</div>
+
