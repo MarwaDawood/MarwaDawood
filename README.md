@@ -1,6 +1,4 @@
 <p align="center">
-<img src="https://github.com/MarwaDawood/MarwaDawood/blob/main/public/banner2.png" alt="my banner">
-
 <h1 align="center">    Hi! 👋🏼   I'm Marwa!  </h1>
 <h3 align="center" >   I am a Junior Front-End Developer 👩🏻‍💻 </h3>
  <br/>
